@@ -33,10 +33,24 @@
 	/*  Vegas Slideshow
 	------------------------------------------------------ */
 
-	function shuffle(o){
-		for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-		return o;
-	};
+	function shuffle(array) {
+		var currentIndex = array.length, temporaryValue, randomIndex;
+	
+		// While there remain elements to shuffle...
+		while (0 !== currentIndex) {
+	
+			// Pick a remaining element...
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex -= 1;
+	
+			// And swap it with the current element.
+			temporaryValue = array[currentIndex];
+			array[currentIndex] = array[randomIndex];
+			array[randomIndex] = temporaryValue;
+		}
+	
+		return array;
+	}
 
 	var bgimages = [
 		{ src: "asset/images/slides/01.jpg" },
