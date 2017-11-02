@@ -36,14 +36,10 @@
 	function shuffle(array) {
 		var currentIndex = array.length, temporaryValue, randomIndex;
 	
-		// While there remain elements to shuffle...
 		while (0 !== currentIndex) {
-	
-			// Pick a remaining element...
 			randomIndex = Math.floor(Math.random() * currentIndex);
 			currentIndex -= 1;
 	
-			// And swap it with the current element.
 			temporaryValue = array[currentIndex];
 			array[currentIndex] = array[randomIndex];
 			array[randomIndex] = temporaryValue;
@@ -100,7 +96,39 @@
 		{ src: "asset/images/slides/45.jpg" },
 		{ src: "asset/images/slides/46.jpg" },
 		{ src: "asset/images/slides/47.jpg" },
-		{ src: "asset/images/slides/48.jpg" }
+		{ src: "asset/images/slides/48.jpg" },
+		{ src: "asset/images/slides/49.jpg" },
+		{ src: "asset/images/slides/50.jpg" },
+		{ src: "asset/images/slides/51.jpg" },
+		{ src: "asset/images/slides/52.jpg" },
+		{ src: "asset/images/slides/53.jpg" },
+		{ src: "asset/images/slides/54.jpg" },
+		{ src: "asset/images/slides/55.jpg" },
+		{ src: "asset/images/slides/56.jpg" },
+		{ src: "asset/images/slides/57.jpg" },
+		{ src: "asset/images/slides/58.jpg" },
+		{ src: "asset/images/slides/59.jpg" },
+		{ src: "asset/images/slides/60.jpg" },
+		{ src: "asset/images/slides/61.jpg" },
+		{ src: "asset/images/slides/62.jpg" },
+		{ src: "asset/images/slides/63.jpg" },
+		{ src: "asset/images/slides/64.jpg" },
+		{ src: "asset/images/slides/65.jpg" },
+		{ src: "asset/images/slides/66.jpg" },
+		{ src: "asset/images/slides/67.jpg" },
+		{ src: "asset/images/slides/68.jpg" },
+		{ src: "asset/images/slides/69.jpg" },
+		{ src: "asset/images/slides/70.jpg" },
+		{ src: "asset/images/slides/71.jpg" },
+		{ src: "asset/images/slides/72.jpg" },
+		{ src: "asset/images/slides/73.jpg" },
+		{ src: "asset/images/slides/74.jpg" },
+		{ src: "asset/images/slides/75.jpg" },
+		{ src: "asset/images/slides/76.jpg" },
+		{ src: "asset/images/slides/77.jpg" },
+		{ src: "asset/images/slides/78.jpg" },
+		{ src: "asset/images/slides/79.jpg" },
+		{ src: "asset/images/slides/80.jpg" }
 	]
 
 	// Suffle the array
