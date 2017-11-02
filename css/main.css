@@ -967,7 +967,7 @@ header .social-links ul li a:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: .5;
+	opacity: .35;
 	background: -moz-linear-gradient(left, black 10%, black 100%, transparent 100%);  /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, black 10%, black 100%, transparent 100%);  /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, black 10%, black 100%, transparent 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
