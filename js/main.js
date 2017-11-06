@@ -175,8 +175,7 @@
 		{ src: "asset/images/slides/124.jpg" },
 		{ src: "asset/images/slides/125.jpg" },
 		{ src: "asset/images/slides/126.jpg" },
-		{ src: "asset/images/slides/127.jpg" },
-		{ src: "asset/images/slides/128.jpg" }
+		{ src: "asset/images/slides/127.jpg" }
 	]
 
 	// Suffle the array
